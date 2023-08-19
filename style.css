@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main{
+    background-color:  #F7F7EE;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 35px 58px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 99;
+}
+#nav-part1{
+    width: 40px;
+    height: 30px;
+    /* background-color: orange;   */
+}
+#nav-part1 .line{
+    width: 100%;
+    height: 2px;
+    background-color:#434B34;
+    margin-top: 4px;
+}
+#nav-part2{
+    padding-right: 20px;
+}
+#nav-part2 button{
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: #434B34;
+    background-color: transparent;
+    border: 1px solid #434B34;
+    /* background-color: #; */
+    /* border-color: #434B34; */
+    /* border: 4px; */
+}
+#nav-part2 button:nth-last-child(1){
+    background-color: #434B34;
+    color: white;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    /* background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-1920x0.jpg);
+    background-position: center;
+    background-size: cover; */
+}
+#page1 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+#page1 svg{
+  
+   height:50px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 700px;
+    fill: #434B34;
+    z-index: 999;
+}
+#page2{
+    width: 100%;
+    min-height: 150vh;
+    background-color: #636F4E;
+    position: relative;
+    /* display: flex;
+    align-items: center; */
+}
+#page2 svg{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+
+    
+}
+#text{
+    position: absolute;
+    z-index: 99;
+    padding-top: 12vw;
+    font-size: 3vw;
+    margin-left: 30vw;
+}
+
+#text h2 {
+    text-align: center;
+}
+#text h2 span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 180;
+    color: #434B34;
+}
+#page2 #svg2{
+    position: absolute;
+    fill: #636F4E;
+    top:100%;
+    width: 220vw;
+}
+#page2 #svg3{
+    position: absolute;
+    fill:#E3E3C4;
+    top:100%;
+    width: 290vw;
+    /* left: 200; */
+}
+
+#page3{
+    width: 100%;
+    min-height: 190vh;
+    background-color: #F7F7EE;
+    position: relative;
+    margin-top: 160px;
+
+}
+#text2{
+    position: absolute;
+    z-index: 99;
+    padding-top: 12vw;
+    margin-left: 27vw;
+}
+#text2 h4 span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 180;
+    font-size: 5vw;
+    color: #434B34;
+}
+#text2 h4{
+    text-align: center;
+}
+#text3{
+    /* background-color: red; */
+    width: 340px;
+    position: absolute;
+    line-height: 1.5vw;
+    left:8vw;
+    top:30vw;
+}
+#text3 p{
+    color: #434B34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#text3-1{
+    width: 18vw;
+    /* background-color: red; */
+    position: absolute;
+    left:8vw;
+    top:38vw;
+    display: flex;
+    gap: 2vw;
+}
+#text3-1 h5{
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #434B34;
+    font-weight: 100;
+    /* padding-top: 1vw;
+    position: absolute; */
+    
+}
+#text3-1 #icon{
+    width: 3vw;
+    background-color: #434B34;
+    height: 1.6vw;
+    padding-left: 1vw;
+    padding-top: 0.2vw;
+    /* position: absolute;
+    left: 11vw; */
+    border-radius: 2vw;
+}
+#text3-1 #icon i{
+    color: white;
+}
+#img1{
+    width: 45vw;
+    height: 30vw;
+    /* background-color: red; */
+    border-radius: 30px;
+    position: absolute;
+    left:45vw;
+    top:30vw;
+}
+#img1 img{
+    width: 45vw;
+    height: 30vw;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+#img2{
+    width: 35vw;
+    height: 26vw;
+    /* background-color: red; */
+    border-radius: 30px;
+    position: absolute;
+    border-radius: 30px;
+    left:8vw;
+    top:45vw;
+}
+#img2 img{
+    width: 35vw;
+    height: 26vw;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+#img3{
+    width: 18vw;
+    height: 20vw;
+    /* background-color: red; */
+    border-radius: 30px;
+    position: absolute;
+    border-radius: 30px;
+    left:45vw;
+    top:62vw;
+}
+#img3 img{
+    width: 18vw;
+    height: 20vw;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
